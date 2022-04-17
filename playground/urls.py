@@ -5,4 +5,5 @@ urlpatterns = [
     path('aboutus/', views.aboutus),
     path('contactus/',views.contactus),
     path('', views.aboutus),
+    
 ]

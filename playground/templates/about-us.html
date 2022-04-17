@@ -134,5 +134,40 @@
         {% else %} 
         <h2> out of connection</h2>
         {% endif %} 
+    
+    {% if dealist %}
+    <table>
+
+    <thread>
+        <th>city </th>
+        <th>state </th>
+        <th>st </th>
+        <th>address</th>
+        <th>zip</th>
+        <th>lat</th>
+        <th>long</th>
+        <th>short_name</th>
+        <th>full_name</th>
+    </thread>
+        { % for x in dealist %}
+        <tr>
+        <td>{{x.city}} </td>
+        <td>{{x.state}} </td>
+        <td>{{x.st}} </td>
+        <td>{{x.address}}</td>
+        <td>{{x.zip}}</td>
+        <td>{{x.lat}}</td>
+        <td>{{x.long}}</td>
+        <td>{{x.short_name}}</td>
+        <td>{{x.full_name}}</td>
+        </tr>
+        
+    </table>
+    {% else %} 
+    <h2> out of connection</h2>
+    {% endif %} 
+    
+        
+    
     </body>
 </html>    

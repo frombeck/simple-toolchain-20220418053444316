@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 django = "*"
 django-debug-toolbar = "*"
+django-filter = "*"
+install = "*"
+djangorestframework-filters = "*"
 
 [dev-packages]
 

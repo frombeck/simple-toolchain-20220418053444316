@@ -41,7 +41,11 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'store',
     'tags',
-    'dealler_list'
+    
+    'dealler_list',
+    'markdown',
+    'rest_framework',
+
 ]
 
 MIDDLEWARE = [

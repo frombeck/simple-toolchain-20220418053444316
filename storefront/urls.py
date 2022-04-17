@@ -23,4 +23,8 @@ urlpatterns = [
     path('playground/', include('playground.urls')),
     path('__debug__/', include(debug_toolbar.urls)),
     path('', include('playground.urls')),
+
+    path('api/', include('dealler_list.urls'))
 ]
+
+
